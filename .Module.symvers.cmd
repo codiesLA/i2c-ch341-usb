@@ -1,0 +1,1 @@
+cmd_/home/agv/i2c-ch341-usb/Module.symvers := sed 's/\.ko$$/\.o/' /home/agv/i2c-ch341-usb/modules.order | scripts/mod/modpost -m -a  -o /home/agv/i2c-ch341-usb/Module.symvers -e -i Module.symvers   -T -

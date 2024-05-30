@@ -1,0 +1,1 @@
+cmd_/home/agv/i2c-ch341-usb/i2c-ch341-usb.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/agv/i2c-ch341-usb/i2c-ch341-usb.ko /home/agv/i2c-ch341-usb/i2c-ch341-usb.o /home/agv/i2c-ch341-usb/i2c-ch341-usb.mod.o;  true
